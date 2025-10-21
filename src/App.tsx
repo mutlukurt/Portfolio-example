@@ -349,7 +349,7 @@ function App() {
         <div className="container mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm">
-              &copy; {new Date().getFullYear()} Your Name. All rights reserved.
+              &copy; {new Date().getFullYear()} Mutlu Kurt. Licensed under MIT License.
             </p>
             <div className="flex gap-6">
               <a href="#home" onClick={(e) => { e.preventDefault(); scrollToSection('home'); }} className="text-sm hover:text-emerald-400 transition-colors">
